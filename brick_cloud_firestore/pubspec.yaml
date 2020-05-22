@@ -10,12 +10,15 @@ environment:
 dependencies:
   brick_core: ^0.0.5
   brick_offline_first: any
-  brick_cloud_firestore_abstract:
-    path: ../brick_cloud_firestore_abstract
-  cloud_firestore: ^0.12.10+2
+  brick_cloud_firestore_abstract: any
+  cloud_firestore: any
   flutter:
     sdk: flutter
   meta: '>=1.1.6 <2.0.0'
+
+dependency_overrides:
+  brick_cloud_firestore_abstract:
+    path: ../brick_cloud_firestore_abstract
 
 dev_dependencies:
   flutter_test:

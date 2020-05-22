@@ -16,6 +16,10 @@ dependencies:
     git:
       url: https://github.com/greenbits/brick.git
       path: packages/brick_sqlite_generators
+  brick_cloud_firestore_generator: any
+  brick_cloud_firestore_abstract: any
+
+dependency_overrides:
   brick_cloud_firestore_generator:
     path: ../brick_cloud_firestore_generator
   brick_cloud_firestore_abstract:
